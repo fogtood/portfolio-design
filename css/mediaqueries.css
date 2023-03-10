@@ -1,0 +1,121 @@
+@media only screen and (max-width:768px) {
+    .textbox-intro {
+        order: 2;
+    }
+
+    .textbox-img {
+        order: 1;
+    }
+
+    .header-textbox {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .description {
+        width: auto;
+    }
+
+    .left-col p {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .social2 ul {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .contact {
+        margin: 0 auto;
+        padding-right: 0;
+    }
+
+    .footer {
+        text-align: center;
+        margin: auto 0;
+        padding: 2%;
+    }
+}
+
+@media only screen and (max-width:749px) {
+    .textbox-intro h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .span1::after {
+        content: "";
+        width: 100%;
+        height: 3px;
+        background: rgb(74, 214, 104);
+        position: absolute;
+        display: none;
+        margin-top: -4px;
+    }
+
+    .textbox-intro h1 {
+        font-size: 1.6rem;
+        font-weight: bold;
+    }
+
+    .nav {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .textbox-img {
+        margin: 0 auto;
+    }
+
+    .experience-container {
+        text-align: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .social ul {
+        text-align: center;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .header-textbox {
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .projects-header h2 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .projects-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hyperlink {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .projects-header h2 {
+        font-size: 2.6rem;
+    }
+}
